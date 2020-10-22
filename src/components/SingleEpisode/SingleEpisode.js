@@ -16,9 +16,6 @@ class SingleEpisode extends React.Component {
             S{episode.season} E{episode.number}
           </h6>
           <p className='card-text'>{summaryShort}</p>
-          {/* <a href='#' className='btn btn-primary'>
-            Go somewhere
-          </a> */}
         </div>
       </div>
     );

@@ -15,7 +15,6 @@ class Home extends React.Component {
   componentDidMount() {
     GotService.getAllEpisodes()
       .then(resFromApi => {
-        // console.log(resFromApi);
         this.setState({ allEpisodes: resFromApi.data });
       })
       .catch(err => console.log(err));
